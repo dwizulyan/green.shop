@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Green.Shop</title>
@@ -16,10 +16,15 @@
 </head>
 <body>
 	<nav>
+		<div class="hamburger" onclick="navSlide()">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>	
 		<div class="logo">
 			<h1><a href="">G.Shop</a></h1>
 		</div>
-		<ul class="link">
+		<ul class="link" id="link">
 			<li><a href="">Beranda</a></li>
 			<li><a href="">Hubungi Kami</a></li>
 			<li><a href="">Sosial</a></li>
@@ -35,6 +40,7 @@
 	</div>
 	<div class="produk">
 		<h1 class="title" style="text-align: center;">Produk Kami</h1>
+		<p class="subtitle">Kamu menjual Benih tumbuhan Hias berkualitas cukup baik</p>
 		<div class="wrap">
 			<div class="image">
 				<img src="./asset/item1.JPG" alt="">
@@ -67,6 +73,45 @@
 				</div>
 			</div>
 		</div>
+		<div class="wrap">
+			<div class="image">
+				<img src="./asset/item3.JPG" alt="">
+			</div>
+				<div class="deskripsi">
+					<h1 class="judul">
+					Unknown
+					</h1>
+					<p class="paragraf"></p>
+					<button class="btn bli">
+					<a href="">N/A</a>
+				</button>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="image">
+				<img src="./asset/item4.JPG" alt="">
+			</div>
+				<div class="deskripsi">
+					<h1 class="judul">
+					Unknown
+					</h1>
+					<p class="paragraf"></p>
+					<button class="btn bli">
+					<a href="">N/A</a>
+				</button>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div class="info">
+		<h1 class="title">Cara Membeli</h1>
+		<p class="subtitle">Pilih barang yang akan anda beli, disana terdapat pilihan Beli beserta harga barang tersebut, lalu anda akan di arahkan ke menu pilihan, ada 2 pilihan </p>
+	</div>
+	<div class="footer">
+		<p class="credit">Created by Dwi Zulyan | With Love</p>
+	</div>
+	<script src="app.js"></script>
 </body>
 </html>
